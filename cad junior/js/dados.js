@@ -18,7 +18,7 @@ const array = JSON.parse(localStorage.getItem("dados")) || [];
       div.classList = "acoes";
 
       let edit = document.createElement("img");
-      edit.src = "https://cdn-icons-png.flaticon.com/128/10969/10969992.png";
+      edit.src = "https://cdn-icons-png.flaticon.com/128/1828/1828802.png";
       edit.classList = "edit";
 
       edit.addEventListener("click", () => {
