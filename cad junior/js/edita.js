@@ -8,14 +8,10 @@ document.getElementById('nome').value = alunoEditar.nome
 document.getElementById('email').value = alunoEditar.email
 
 form.addEventListener('submit', (event) => {
-    // let existe = array.find(elemento => elemento.nome === event.target.elements.nome.value)
-    // if (existe) {
-    //     alert('Esse Aluno já está cadastrado!')
-    // } else {
-        alunoEditar.nome = event.target.elements.nome.value
-        alunoEditar.email = event.target.elements.email.value
 
-        localStorage.setItem("dados", JSON.stringify(array));
-    // }
+    alunoEditar.nome = event.target.elements.nome.value
+    alunoEditar.email = event.target.elements.email.value
+
+    localStorage.setItem("dados", JSON.stringify(array));
 })
 
